@@ -1,0 +1,11 @@
+t = [-5:0.01:5];
+a = 1/2;
+b = 1/3;
+m = 7;
+n = 17;
+x = cos(t) + a*cos(m.*t) + b*sin(n.*t);
+y = sin(t) + a*sin(m.*t) + b*cos(n.*t);
+title('ex7');
+xlabel('x');
+ylabel('y');
+plot(x,y);
